@@ -1,6 +1,5 @@
 .header {
     display: flex;
-    flex-direction: row;
 
     height: 50px;
     background-color: #1f2937;
