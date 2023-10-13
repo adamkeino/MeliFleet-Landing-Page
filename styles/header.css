@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 110px;
+    background-color: #1F2937;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    width: 200px;
+    height: 110px; 
+    align-items: center;  
+}
+.ffms-logo {
+    height: 110px;
+    width: 160px;
+    border-style: none;
+}
+.header-text {
+    flex: 1;
+    color: aqua;
+    font-weight: bold;
+    font-family: garamond;
+    font-size: 30px;
+}
+a {
+    font-family: arial;
+    font-weight: bold;
+    text-decoration: none;
+    color: aqua;
+}
+.separator {
+    color: red;
+}
+
+.contacts-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: fixed; */
+    top: 110px;
+    left: 0;
+    right: 0;
+    background-color: #1F2937;
+}
+.phone-contact {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+.email-contact {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.phone-number {
+    color: aqua;
+}
+.email-address {
+    color: aqua;
+}
+.social-links {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.phone-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.email-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.search-icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.linkedin-icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.twitter-icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.instagram-icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
