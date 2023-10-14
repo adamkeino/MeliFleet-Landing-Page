@@ -11,6 +11,9 @@
     padding-right: 10px;
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
+    text-decoration: none;
+    color: aqua;
+    padding-right: 10px;
 }
 .footer-copyright {
     font-family: 'Oswald', sans-serif;
