@@ -43,9 +43,9 @@ a {
     flex-direction: row;
     justify-content: space-between;
     /* position: fixed; */
-    top: 110px;
-    left: 0;
-    right: 0;
+    /* top: 110px; */
+    /* left: 0;
+    right: 0; */
     background-color: #1F2937;
 }
 .phone-contact {
