@@ -62,6 +62,8 @@
 .welcome-image {
     height: 250px;
     width: 400px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .content2 {
     display: flex;
