@@ -1,0 +1,6 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: #1F2937;
+}
