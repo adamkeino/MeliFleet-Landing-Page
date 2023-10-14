@@ -3,4 +3,18 @@
     flex-direction: row;
     height: 50px;
     background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-link {
+    font-size: 12px;
+    padding-right: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+.footer-copyright {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: white;
+    padding-left: 10px;
 }

@@ -21,7 +21,7 @@
     padding-top: 20px;
 }
 .contactus-body {
-    font-family: arial;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin: 0;
     padding: 0;
@@ -45,4 +45,8 @@
 .contactus-button:active {
     color: aqua;
     background-color: #1F2937;
+}
+.contactus-button:visited {
+    color: aqua;
+    background-color: rgba(190,17,25,0.5);
 }

@@ -100,10 +100,10 @@
     color: aqua;
 }
 .box-content-body {
-    font-family: arial;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 .AI {
     color: aqua;
-    font-weight: bold;
+    font-weight: normal;
 }
