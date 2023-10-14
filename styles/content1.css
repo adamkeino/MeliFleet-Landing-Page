@@ -13,6 +13,7 @@
     justify-content: center;
     gap: 10px;
     background-blend-mode: overlay;
+    flex-shrink: none;
 }
 .system-description {
     display: flex;
