@@ -1,5 +1,24 @@
-body {
-    height: 150%;
-    padding-top: 5%;
-    margin: 0;
+/* Laptops and bigger screens */
+@media screen and (min-width: 769px){
+    body {
+        height: 150%;
+        padding-top: 8%;
+        margin: 0%;
+    }
+}
+/* Phone Screens */
+@media screen and (max-width: 480px) {
+    body {
+        height: 120%;
+        padding-top: 6%;
+        margin: 0%;
+    }
+}
+/* Tablet Screens */
+@media screen and (max-width: 768px) {
+    body {
+        height: 150%;
+        padding-top: 8%;
+        margin: 0%;
+    }
 }
