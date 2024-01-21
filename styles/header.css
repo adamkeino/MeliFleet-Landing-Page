@@ -1,3 +1,4 @@
+/* Laptop and computer Screens */
 .header {
     display: flex;
     flex-direction: row;
@@ -112,4 +113,125 @@
     height: 20px;
     cursor: pointer;
     padding-top: 10px;
+}
+
+/* Phone Screens */
+@media only screen and (max-width: 435px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 120px;
+        width: 100%;
+        background-color: #1F2937;
+        align-items: center;
+    }
+    .header-logo {
+        display: flex;
+        width: 24px;
+        height: 24px; 
+        align-items: center;  
+    }
+    .ffms-logo {
+        height: 44px;
+        width: 42px;
+        border-style: none;
+        cursor: pointer;
+    }
+    .header-text {
+        flex: 0.5;
+        color: aqua;
+        font-weight: bold;
+        font-family: garamond;
+        font-size: 30px;
+        padding: 0;
+    }
+    .header-link {
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        color: aqua;
+        padding-right: 25px;
+    }
+    .separator {
+        color: red;
+    }
+    
+    .contacts-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* position: fixed; */
+        /* top: 110px; */
+        /* left: 0;
+        right: 0; */
+        background-color: #1F2937;
+        height: 50px;
+    }
+    .phone-contact {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+    }
+    .email-contact {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    .phone-number {
+        color: aqua;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .email-address {
+        color: aqua;
+    }
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-evenly;
+    }
+    .phone-icon {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        margin-right: 15px;
+        padding-top: 12px;
+        padding-left: 15px;
+    }
+    .email-icon {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        margin-right: 15px;
+        padding-top: 10px;
+    }
+    .search-icon {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        padding-top: 10px;
+    }
+    .linkedin-icon {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        padding-top: 10px;
+    }
+    .twitter-icon {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        padding-top: 10px;
+    }
+    .instagram-icon {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        padding-top: 10px;
+    }
 }
