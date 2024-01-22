@@ -67,25 +67,7 @@
         width: 400px;
         border-radius: 5px;
         cursor: pointer;
-    }
-    .content2 {
-        display: flex;
-        flex-direction: row;
-        height: 400px;
-        background-color: lightblue;
-    }
-    .content3 {
-        display: flex;
-        flex-direction: row;
-        height: 400px;
-        background-color: lightcyan;
-    }
-    .content4 {
-        display: flex;
-        flex-direction: row;
-        height: 400px;
-        background-color: lightyellow;
-    }
+    }    
 }
 /* Phone Screens */
 @media only screen and (max-width: 435px) {

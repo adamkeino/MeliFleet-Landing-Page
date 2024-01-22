@@ -5,6 +5,7 @@
         flex-direction: column;
         gap: 20px;
         height: 500px;
+        background-color: lightblue;
     }
     .content2-header {
         height: 50px;
